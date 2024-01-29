@@ -1,0 +1,265 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+}
+
+
+/*  ==============navbar start ============== */
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    height: 51px;
+    /* Adjust the height of the logo as needed */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav a {
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.navbar-nav a:hover {
+    text-decoration: none;
+    color: #01a3d4;
+
+
+}
+
+
+@media only screen and (max-width:575px) {
+    .ag {
+
+        margin-left: 05%;
+        margin-right: 05%;
+    }
+}
+
+/*  ==============navbar End ============== */
+.airplane {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    transform: translateY(-50%);
+    animation: fly 15s linear infinite;
+}
+
+@keyframes fly {
+    to {
+        transform: translateX(100%);
+    }
+}
+
+/* ==============wallpaper start==============    */
+
+.wallpaper {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../image/rest-sunshine-atoll-bungalow-holiday.jpg') center/cover no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+
+    /* opacity: 0.2; */
+
+}
+
+.content {
+    text-align: center;
+    /* width: 800px; */
+}
+
+.search-box {
+    width: 100%;
+    max-width: 705px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    /* margin-bottom: 20px; */
+}
+
+.search-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.title h1 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    
+    /* color: #fade1a; */
+}
+.title h2 {
+    color: #000000;
+    
+    /* color: #fade1a; */
+}
+
+.title
+h5 {
+    color: #000000;
+    
+    
+}
+
+#mySearch {
+    /* width: 100%; */
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+    /* padding-top: 0px; */
+  }
+  
+  /* Style the navigation menu inside the left column */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    
+
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+    border-radius: 10px;
+  }
+
+  @media only screen and (min-width:690px) {
+    .title {
+
+        width: 706px;
+    }
+}
+
+
+
+/* ==============wallpaper & Searching bar End ==============    */
+
+/* ==============footer start==============  */
+
+.ft img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 16px 0;
+    /* min-height: 100vh;*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-area {
+    border-bottom: 1px solid #353C46;
+}
+
+.contact-content p {
+    font-size: 15px;
+    margin: 30px 0 32px;
+    position: relative;
+}
+
+.contact-content p::after {
+    background: #000000;
+    bottom: -30px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.contact-content h6 {
+    color: #8b9199;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-content span {
+    color: #353c47;
+    margin: 0 10px;
+}
+
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-social>ul {
+    display: inline-flex;
+}
+
+.contact-social ul li a {
+    border: 1px solid #8b9199;
+    color: #8b9199;
+    display: inline-block;
+    height: 40px;
+    margin: 0 10px;
+    padding-top: 7px;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+
+.contact-social ul li a:hover {
+    border: 1px solid #01a3d4;
+    color: #01a3d4;
+}
+
+.contact-content img {
+    max-width: 210px;
+}
+
+section,
+footer {
+    background: #000000;
+    color: #868c96;
+}
+
+footer p {
+    padding: 6px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}
+
+/* ==============footer end==============  */
